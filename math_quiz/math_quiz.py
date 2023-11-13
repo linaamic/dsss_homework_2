@@ -64,7 +64,7 @@ def generate_problem_and_answer(number_1: int, number_2: int, operation: str) ->
         The correct answer to the math problem 
 
     """
-    # the problem as a string for printing
+    # the math problem as a string for printing
     problem = f"{number_1} {operation} {number_2}"
 
     # building the actual math problem from the components and calculating the answer
@@ -88,7 +88,7 @@ def math_quiz():
 
     """
     score = 0 # starting value for the score
-    ROUNDS = 3 # number of rounds to play, thus also max score
+    ROUNDS = 3 # number of rounds to play, thus also max possible score
 
     print("Welcome to the Math Quiz Game!")
     print("You will be presented with math problems, and you need to provide the correct answers.")
